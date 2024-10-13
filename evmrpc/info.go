@@ -195,7 +195,8 @@ func (i *InfoAPI) safeGetBaseFee(targetHeight int64) (res *big.Int) {
 			res = nil
 		}
 	}()
-	res = i.keeper.GetBaseFeePerGas(i.ctxProvider(targetHeight)).BigInt()
+
+	res = i.keeper.GetBaseFeePerGas(i.ctxProvider(targetHeight)).TruncateInt().BigInt()
 	return
 }
 

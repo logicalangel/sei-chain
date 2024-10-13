@@ -357,4 +357,6 @@ replace (
 	github.com/tendermint/tendermint => github.com/sei-protocol/sei-tendermint v0.3.3
 	github.com/tendermint/tm-db => github.com/sei-protocol/tm-db v0.0.4
 	google.golang.org/grpc => google.golang.org/grpc v1.33.2
+	nhooyr.io/websocket => github.com/coder/websocket v1.8.7
+	github.com/ledgerwatch/interfaces => github.com/erigontech/interfaces v0.0.0
 )

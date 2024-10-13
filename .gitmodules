@@ -3,10 +3,19 @@
 	url = https://github.com/foundry-rs/forge-std
 [submodule "contracts/lib/openzeppelin-contracts"]
 	path = contracts/lib/openzeppelin-contracts
-	url = https://github.com/openzeppelin/openzeppelin-contracts
+	url = https://github.com/openZeppelin/openzeppelin-contracts
 [submodule "loadtest/contracts/evm/lib/openzeppelin-contracts"]
 	path = loadtest/contracts/evm/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
 [submodule "loadtest/contracts/evm/lib/solmate"]
 	path = loadtest/contracts/evm/lib/solmate
 	url = https://github.com/transmissions11/solmate
+[submodule "contracts/lib/openzeppelin-contracts-05"]
+	path = contracts/lib/openzeppelin-contracts-05
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "contracts/lib/openzeppelin-contracts-06"]
+	path = contracts/lib/openzeppelin-contracts-06
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "contracts/lib/openzeppelin-contracts-08"]
+	path = contracts/lib/openzeppelin-contracts-08
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
